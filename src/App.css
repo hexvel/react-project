@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  min-height: 600px;
+  background: url(./components/images/header-background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-nav-container
+{
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.header .logo span {
+  color: #FF3F3A;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navigation ul li {
+  margin: 0 0.6em;
+}
+
+.navigation ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover
+{
+  text-decoration: underline;
+}
+
+.header .consultation-button {
+  border: none;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 18px 32px;
+  cursor: pointer;
+  background: #FF3F3A;
+  transition: 0.2s;
+}
+
+.header .consultation-button:hover
+{
+  background: #e64741;
+}
+
+.header .header-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .login-user-form {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 12px;
+  cursor: pointer;
+}
+
+.header .login-user-form .login-user-img {
+  padding: 0 4px;
+}
+
+.header-middle
+{
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-middle-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-middle .play-sound
+{
+  display: flex;
+  align-items: center;
+}
+
+.header-middle .play-sound img
+{
+  cursor: pointer;
+}
+
+.header-middle .online-courses
+{
+  width: 400px;
+  flex-direction: column;
+}
+
+.header-middle h1
+{
+  font-size: 48px;
+}
+
+.online-courses .aboutus-btn
+{
+  color: #FF3F3A;
+  padding: 12px 24px;
+  background: transparent;
+  border: 1px solid #FF3F3A;
+  border-radius: 4px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.online-courses .explore-btn
+{
+  color: #ffffff;
+  padding: 12px 24px;
+  background: #FF3F3A;
+  border-radius: 4px;
+  border: none;
+  margin: 0 0 0 24px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.online-courses .aboutus-btn:hover
+{
+  color: #ffffff;
+  background: #FF3F3A;
+  border: none;
+}
+
+.online-courses .explore-btn:hover
+{
+  color: #FF3F3A;
+  background: transparent;
+  border: 1px solid #FF3F3A;
+}
+
+.header-stats
+{
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.header-stats .circle
+{
+  height: 6px;
+  width: 6px;
+  background: #FF3F3A;
+  border-radius: 50%;
+  margin: 66px;
+}
+
+.header-stats .count-container
+{
+  display: flex;
+  align-items: center;
+}
+
+.header-stats .count
+{
+  font-size: 34px;
+  margin: 0;
+}
+
+.header-stats p
+{
+  margin: 0 10px;
+}
