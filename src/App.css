@@ -61,6 +61,7 @@
   border-radius: 6px;
   padding: 18px 32px;
   cursor: pointer;
+  font-weight: 600;
   background: #FF3F3A;
   transition: 0.2s;
 }
@@ -193,4 +194,82 @@
 .header-stats p
 {
   margin: 0 10px;
+}
+
+.second-section
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 560px;
+  position: relative;
+  padding: 120px 0;
+}
+
+.second-section .who-we-are
+{
+  font-size: 34px;
+}
+
+.second-section .who-we-are .who-we-are-text
+{
+  font-size: 18px;
+}
+
+.second-section .background-dots
+{
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+.second-section .background-circle
+{
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+}
+
+.second-section .createx-list
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 390px;
+}
+
+.second-section .createx-list .block
+{
+  display: flex;
+  align-items: baseline;
+}
+
+.second-section .createx-list .block .check
+{
+  margin: 0 12px 0 0;
+  align-items: center;
+}
+
+.second-section .why-createx
+{
+  font-size: 48px;
+}
+
+.second-section .createx-list .why-createx-text
+{
+  margin: 10px 0;
+  line-height: 23px;
+  font-size: 18px;
+}
+
+.second-section .more-about-us
+{
+  margin: 12px 0;
+  padding: 18px 42px;
+  background: #FF3F3A;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
 }
